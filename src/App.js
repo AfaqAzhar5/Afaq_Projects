@@ -21,6 +21,7 @@ const App = () => {
       <div className="app_container">
         <>{menu ? <SideBar /> : <Menu />}</>
         <div className="app_content">
+          <h1>AFaq Azhar</h1>
           <Routes>
             <Route path="/" element={<Dashboard />} />
             <Route path="/contact" element={<Contact />} />
