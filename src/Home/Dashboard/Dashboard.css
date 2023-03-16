@@ -1,0 +1,54 @@
+.dashboard {
+  /* background-color: aquamarine; */
+  width: 30%;
+  padding: 0.5%;
+}
+.video_container {
+  /* background-color: chartreuse; */
+  min-height: 250px;
+  height: auto;
+  margin-bottom: 10%;
+}
+
+.thumbnail {
+  /* background-color: darkorange; */
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.contetnt {
+  /* background-color: rgb(0, 119, 107); */
+  width: 100%;
+  /* height: 100px; */
+  display: flex;
+  justify-content: space-between;
+}
+.channel_icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.info {
+  width: 98%;
+  /* background-color: yellow; */
+  /* text-align: start; */
+  margin-top: 1%;
+}
+.title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+  width: 100%;
+  height: 35px;
+  overflow: hidden;
+  font-size: 15px;
+}
+.channel_name {
+  font-size: 12px;
+  margin: 2px 0;
+  color: rgb(109, 109, 109);
+}
